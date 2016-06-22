@@ -5,6 +5,7 @@ This repository is jointly curated by members of the [RADICAL team](http://radic
 The objective is to reduce the runtime of the cardiac model calculations. This will be done by refining to the underlying algorithms, identifying and increasing parallelism in existing code, and extending the single machine code to run on HPCs 
 
 ###TODOs###
+* Add a smaller dataset than the one included in order to improve code in smaller timescales
 * Identifying possible bottlenecks in code which can benefit from parallelism
 * Remove dependencies on Windows-dependent libraries so that the code can run on Linux environments
 * Understanding the structure of the existing code and how Ensemble Toolkit can increase concurrency
