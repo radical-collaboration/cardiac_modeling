@@ -21,4 +21,5 @@ referred to as **base_dir** going forward
 3. In MATLAB, navigate to directory `**base_dir**/GP_BO_optimization/GP_BO/optimizer/bobyqa`, 
 and run the command `mex(strcat('-I"',pwd,'"'), 'bobyqa_alg.cpp')`
 
-#### Current Error: Access Violation during GP_BO_optimization phase, when MATLAB code runs C++ compiled mex file
+##### Current Roadblock 
+Access Violation during GP_BO_optimization phase, when MATLAB code runs C++ compiled mex file
